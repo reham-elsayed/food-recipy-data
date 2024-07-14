@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="href" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="">
+ 
+<div class="head">
+    <div  class="flex sidebar">
+      <div class=" list hidden">
+    <div class="flex flex-col justify-between items-center min-h-screen">
+ <ul class="flex flex-col container  mx-auto px-4 inner-list">
+    <li class="py-10" id="search"><span class="text-position zero ">search</span></li>
+    <li class="py-10" id="category"><span class="text-position one">category</span></li>
+    <li class="py-10" id="area"><span class="text-position two">Area</span></li>
+    <li class="py-10" id="ingredient"><span class="text-position three">ingredients</span></li>
+    <li class="py-10" id="contact"><span class="text-position four">contact us</span></li>
+ </ul>
+<div class="container  mx-auto px-4">
+    <div>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-globe"></i>
+    </div>
+    <div class="w-32"><p>Copyright Â© 2019 All Rights Reserved</p></div>
+</div>
+</div>
+    </div>
+
+    <div class="flex flex-col justify-between items-center p-1">
+        <img src="/img/logo.png" class="w-10" alt="logo">
+        <div class="dis-icon">
+            <i class="fa-solid open-close-icon fa-2x  fa-align-justify"></i>
+        </div>
+<div>
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+        <i class="fa fa-globe"></i>
+        <i class="fa fa-share"></i>
+    </div>
+    </div>
+</div>
+</div>
+<section id="category-display" class="container  mx-auto px-4 my-10">
+    <div id ='searchdisplayinput'></div>
+    <div id="dis-cat-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 ">
+      
+
+
+        
+    </div>
+
+    <div id="loader" class="flex flex-row gap-2 loader">
+        <div class="w-4 h-4 rounded-full bg-blue-700 animate-bounce"></div>
+        <div class="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.3s]"></div>
+        <div class="w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.5s]"></div>
+      </div>
+      
+  
+</section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/thirdlayer.js" type="module"></script>
+<script src="js/main.js" type="module"></script>
+<script src="js/area.js" type="module"></script>
+<script src="js/ingredient.js" type="module"></script>
+<script src="js/form.js" type="module"></script>
+    <script src="js/index.js" type="module"></script>
+
+</body>
+</html>
